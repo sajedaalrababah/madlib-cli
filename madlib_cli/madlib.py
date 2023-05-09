@@ -74,7 +74,7 @@ def ask_user_questions(words_tuple):
 
 
 def save_file(final):
-    with open("assets/users_custom_file.txt", "w") as new_file:
+    with open("../assets/users_custom_file.txt", "w") as new_file:
         new_file.write(final)
 
 
