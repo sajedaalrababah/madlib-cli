@@ -90,4 +90,4 @@ def initialize(template_path):
 
 
 if __name__ == "__main__":
-    initialize("/assets/dark_and_stormy_night_template.txt")
+    initialize("../assets/dark_and_stormy_night_template.txt")
