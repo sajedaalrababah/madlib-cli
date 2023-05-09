@@ -74,7 +74,7 @@ def ask_user_questions(words_tuple):
 
 
 def save_file(final):
-    with open("/home/sajeda/madlib-cli/assets/users_custom_file.txt", "w") as new_file:
+    with open("../assets/users_custom_file.txt", "w") as new_file:
         new_file.write(final)
 
 
@@ -90,4 +90,4 @@ def initialize(template_path):
 
 
 if __name__ == "__main__":
-    initialize("/home/sajeda/madlib-cli/assets/template.txt")
+    initialize("../assets/dark_and_stormy_night_template.txt")
